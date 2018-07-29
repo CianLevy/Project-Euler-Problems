@@ -1,3 +1,6 @@
 ﻿  problem_11.cpp
-  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Debug\Euler Problems.exe
-  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Debug\Euler Problems.pdb (Partial PDB)
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_11.cpp(31): warning C4101: 'end_y': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_11.cpp(31): warning C4101: 'end_index': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_11.cpp(31): warning C4101: 'end_x': unreferenced local variable
+  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
+  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)

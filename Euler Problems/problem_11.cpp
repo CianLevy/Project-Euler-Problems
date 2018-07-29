@@ -1,5 +1,6 @@
 #include "EulerProblems.h"
 #include <vector>
+
 const short numbers[] = { 8, 02, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78, 52, 12, 50, 77, 91,  8,
 49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 04, 56, 62, 00,
 81, 49, 31, 73, 55, 79, 14, 29, 93, 71, 40, 67, 53, 88, 30, 03, 49, 13, 36, 65,
@@ -25,10 +26,36 @@ const short numbers[] = { 8, 02, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78,
 std::string problem_11::solution() {
 
 	unsigned long maximum = 0, currentValue[] = { 1, 1 };
+	unsigned long current_value = 1;
 
-	short x, y;
+	short x, y, end_x, end_y, end_index;
 	short index, value;
 
+	short directions[4] = { 1, 21, 20, 19 };
+	
+	for (int i = 0; i < 400; i++) {
+		x = i % 20;
+		y = i / 20;
+
+		for (int j = 0; j < 4; j++) {
+			//Only the end conditions need to be checked to determine if the numbers are actually adjacent
+			end_index = i + directions[j] * 3;
+			end_x = (end_index) % 20;
+
+			//If the difference between the current x value and and end x value is greater than 4 then the numbers are not adjacent
+			if (end_x - x < 4 && end_x - x > -4 && end_index < 400) {
+				current_value = numbers[i] * numbers[i + directions[j]] * numbers[i + 2 * directions[j]] * numbers[end_index];
+			}
+			if (current_value > maximum)
+				maximum = current_value;
+
+			current_value = 1;
+		}
+
+	}
+
+	/*
+	
 	for (int i = 0; i < 400; i++) {
 		x = i % 20;
 		y = i / 20;
@@ -79,9 +106,9 @@ std::string problem_11::solution() {
 
 
 	}
-
+	
 	std::cout << "index " << index << "\n";
 	std::cout << "value " << value << "\n";
-
+	*/
 	return std::to_string(maximum);
 }

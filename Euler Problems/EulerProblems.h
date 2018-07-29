@@ -55,10 +55,15 @@ public:
 class problem_10 {
 public:
 	std::string solution();
-	bool isPrime(int num);
 };
 
 class problem_11 {
+public:
+	std::string solution();
+
+};
+
+class problem_12 {
 public:
 	std::string solution();
 

@@ -2,51 +2,32 @@
 #include <vector>
 
 std::string problem_10::solution() {
-	unsigned long sum = 0;
+	unsigned long long sum = 0;
 
-	/*for (int i = 2000000; i > 0; i--) {
-		if (isPrime(i))
-			sum += i;
-	}
-	
-	Start from smallest work up
-	Check to see if already discovered primes are a factor
-	*/
-	std::vector<int> primes;
-	primes.push_back(2);
-	sum += 2;
-	
+	const int max = 2000000;
 
-	for (int i = 3; i < 2000000; i++) {
+	//For increased clarity the array is made 1 size larger than necessary. This allows index 2 to correspond to the value 2.
+	bool* prime = new bool[max + 1];
 
-		//std::cout << i << std::endl;
+	for (int i = 0; i < max + 1; i++)
+		prime[i] = true;
 
-		for (auto a = primes.begin(); a != primes.end(); ++a) {
-			//std::cout << "ran";
+	//The largest factor of any number (excluding itself) is the square root of the number
+	for (int i = 2; i <= sqrt(max); i++) {
 
-			if (a == primes.end() || *a > i / 2) {
-				primes.push_back(i);
-				sum += i;
-				//std::cout << "added " << i << std::endl;
-				//std::cout << "Size " << primes.size();
-				break;
-
+		if (prime[i]) {
+			//If a number is prime then all the multiples of that number can be eliminated 
+			for (int j = i * i; j <= max; j += i) {
+				prime[j] = false;
 			}
-			else if (i % *a == 0)
-				break;
 
 		}
 	}
 
+	for (int i = 2; i < max + 1; i++)
+		if (prime[i]) {
+			sum += i;
+		}
+
 	return std::to_string(sum);
-}
-
-bool problem_10::isPrime(int num) {
-
-	for (int i = 2; i < num / 2; i++) {
-		if (num % i == 0)
-			return false;
-	}
-
-	return true;
 }
