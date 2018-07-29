@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include <chrono>
+#include <vector>
 
 class problem_1 {
 public:
@@ -66,5 +67,9 @@ public:
 class problem_12 {
 public:
 	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit);
+	int num_divisors(int value);
 
 };
