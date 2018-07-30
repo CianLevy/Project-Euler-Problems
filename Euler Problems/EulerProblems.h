@@ -73,3 +73,8 @@ private:
 	int num_divisors(int value);
 
 };
+
+class problem_13 {
+public:
+	std::string solution();
+};
