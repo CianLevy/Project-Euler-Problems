@@ -1,3 +1,5 @@
-﻿  problem_14.cpp
+﻿  problem_15.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_15.cpp(6): warning C4101: 'y': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_15.cpp(6): warning C4101: 'x': unreferenced local variable
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)
