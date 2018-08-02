@@ -1,10 +1,11 @@
 #include "EulerProblems.h"
 
 std::string problem_16::solution() {
+
 	_int8 result[500] = { 0 };
 	result[0] = 2;
 
-	short location = 0, output_capacity = 100, current_sum, current_length = 0, start_length, answer = 0;
+	short location = 0, current_sum, current_length = 0, start_length, answer = 0;
 
 	for (int j = 0; j < 999; j++){
 		
