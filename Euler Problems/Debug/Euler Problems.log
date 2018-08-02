@@ -1,5 +1,4 @@
-﻿  problem_15.cpp
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_15.cpp(6): warning C4101: 'y': unreferenced local variable
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_15.cpp(6): warning C4101: 'x': unreferenced local variable
+﻿  problem_16.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_16.cpp(42): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)
