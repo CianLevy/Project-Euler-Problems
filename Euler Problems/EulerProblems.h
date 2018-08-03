@@ -93,3 +93,8 @@ class problem_16 {
 public:
 	std::string solution();
 };
+
+class problem_17 {
+public:
+	std::string solution();
+};
