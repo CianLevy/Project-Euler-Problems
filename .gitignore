@@ -3,3 +3,6 @@
 # Compiled Object files
 *.slo
 *.lo
+*.ipch
+*.vcxproj
+*.obj

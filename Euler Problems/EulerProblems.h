@@ -104,6 +104,16 @@ public:
 	std::string solution();
 };
 
+class problem_19 {
+public:
+	std::string solution();
+};
+
+class problem_20 {
+public:
+	std::string solution();
+};
+
 class problem_67 {
 public:
 	std::string solution();

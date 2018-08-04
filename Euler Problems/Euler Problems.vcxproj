@@ -162,7 +162,9 @@
     <ClCompile Include="problem_16.cpp" />
     <ClCompile Include="problem_17.cpp" />
     <ClCompile Include="problem_18.cpp" />
+    <ClCompile Include="problem_19.cpp" />
     <ClCompile Include="problem_2.cpp" />
+    <ClCompile Include="problem_20.cpp" />
     <ClCompile Include="problem_3.cpp" />
     <ClCompile Include="problem_4.cpp" />
     <ClCompile Include="problem_5.cpp" />
