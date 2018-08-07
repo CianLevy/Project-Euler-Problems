@@ -6,6 +6,9 @@ std::string problem_12::solution() {
 
 	prime_numbers = generatePrimes(1000);
 
+	for (auto a = prime_numbers.begin(); a != prime_numbers.end(); ++a)
+		std::cout << *a << "\n";
+
 	/*Initial observations:
 		triangular numbers increase in defined series and can be calculated using a formula rather than actually adding all the previous numbers
 		problem is essentially reduced to finding an efficient method of determining the number of factors a number has
@@ -43,11 +46,9 @@ std::vector<int> problem_12::generatePrimes(int limit) {
 
 	std::vector<int> prime_nums;
 
-	prime_nums.push_back(2);
-
 	for (int i = 2; i < sqrt(limit); i++) {
 		if (prime[i]) {
-			for (int j = i * i; j < i; j += i) {
+			for (int j = i * i; j < limit; j += i) {
 				prime[j] = false;
 			}
 			prime_nums.push_back(i);

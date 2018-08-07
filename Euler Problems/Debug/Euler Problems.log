@@ -1,4 +1,6 @@
-﻿  problem_20.cpp
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_20.cpp(9): warning C4101: 'copy': unreferenced local variable
+﻿  problem_21.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'divisor': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'other_divisor': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'temp': unreferenced local variable
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)

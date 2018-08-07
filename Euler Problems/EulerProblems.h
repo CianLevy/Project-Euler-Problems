@@ -117,6 +117,11 @@ public:
 class problem_21 {
 public:
 	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit);
+	int sum_divisors(int value);
+	std::vector<int> prime_numbers;
 };
 
 
