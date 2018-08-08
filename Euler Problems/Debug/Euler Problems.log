@@ -1,6 +1,5 @@
-﻿  problem_21.cpp
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'divisor': unreferenced local variable
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'other_divisor': unreferenced local variable
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'temp': unreferenced local variable
+﻿  problem_22.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_22.cpp(36): warning C4018: '<': signed/unsigned mismatch
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_22.cpp(53): warning C4018: '>': signed/unsigned mismatch
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)

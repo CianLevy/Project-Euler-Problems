@@ -124,6 +124,17 @@ private:
 	std::vector<int> prime_numbers;
 };
 
+class problem_22 {
+public:
+	std::string solution();
+
+private:
+	bool lexicographic_compare(std::string a, std::string b);
+	void quicksort(std::string data[], int low, int high);
+	int partition(std::string data[], int low, int high);
+};
+
+
 
 class problem_67 {
 public:
