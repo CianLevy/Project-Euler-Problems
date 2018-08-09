@@ -5,14 +5,14 @@
 
 int main()
 {
-	problem_22 problem;
+	problem_23 problem;
 
 	auto t0 = std::chrono::high_resolution_clock::now();
 
 	std::cout << problem.solution() << std::endl;
 
 	auto t1 = std::chrono::high_resolution_clock::now();
-	std::cout << "Elapsed time: " << static_cast<std::chrono::duration<float>>(t1 - t0).count() << " seconds" << std::endl;
+	std::cout << "Solution calculated in " << static_cast<std::chrono::duration<float>>(t1 - t0).count() << " seconds" << std::endl;
 
 
 

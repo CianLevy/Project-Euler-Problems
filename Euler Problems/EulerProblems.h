@@ -134,7 +134,15 @@ private:
 	int partition(std::string data[], int low, int high);
 };
 
+class problem_23 {
+public:
+	std::string solution();
 
+private:
+	std::vector<int> generatePrimes(int limit);
+	int sum_divisors(int value);
+	std::vector<int> prime_numbers;
+};
 
 class problem_67 {
 public:
