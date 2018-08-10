@@ -93,6 +93,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>true</Profile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -106,6 +107,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>true</Profile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -168,6 +170,7 @@
     <ClCompile Include="problem_21.cpp" />
     <ClCompile Include="problem_22.cpp" />
     <ClCompile Include="problem_23.cpp" />
+    <ClCompile Include="problem_24.cpp" />
     <ClCompile Include="problem_3.cpp" />
     <ClCompile Include="problem_4.cpp" />
     <ClCompile Include="problem_5.cpp" />

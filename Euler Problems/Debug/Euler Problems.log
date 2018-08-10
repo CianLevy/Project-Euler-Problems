@@ -1,6 +1,5 @@
-﻿  problem_23.cpp
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_23.cpp(67): warning C4101: 'divisor': unreferenced local variable
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_23.cpp(67): warning C4101: 'other_divisor': unreferenced local variable
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_23.cpp(67): warning C4101: 'temp': unreferenced local variable
+﻿  problem_24.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+EulerProblems.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)

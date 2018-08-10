@@ -6,3 +6,12 @@
 *.ipch
 *.vcxproj
 *.obj
+Debug/Euler Problems.exe
+*.ipch
+*.tlog
+*.exe
+*.db
+*.obj
+*.vspx
+*.vsp
+*.psess

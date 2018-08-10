@@ -144,6 +144,15 @@ private:
 	std::vector<int> prime_numbers;
 };
 
+class problem_24 {
+public:
+	std::string solution();
+
+private:
+	void swap(int &a, int &b);
+};
+
+
 class problem_67 {
 public:
 	std::string solution();
