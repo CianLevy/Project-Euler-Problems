@@ -6,7 +6,6 @@ std::string problem_20::solution() {
 	result[0] = 1;
 
 	short location = 0, current_sum, current_length = 0, start_length, answer = 0;
-	int copy;
 
 	for (int j = 100; j >= 2; j--) {
 

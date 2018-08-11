@@ -171,6 +171,7 @@
     <ClCompile Include="problem_22.cpp" />
     <ClCompile Include="problem_23.cpp" />
     <ClCompile Include="problem_24.cpp" />
+    <ClCompile Include="problem_25.cpp" />
     <ClCompile Include="problem_3.cpp" />
     <ClCompile Include="problem_4.cpp" />
     <ClCompile Include="problem_5.cpp" />

@@ -16,7 +16,7 @@ std::string problem_24::solution() {
 		if (i % 2 == 0) {
 			/*This for loop searches for a number that ends with a series of descending numbers.
 			E.g. 0123456987
-			If the the final digits are all descending then the next permutation will require a that the number 1 index before
+			If the the final digits are all descending then the next permutation will require that the number 1 index before
 			the series of descending numbers is increased. This for loop searchs for such instances and stores the index of the location
 			that must be changed. For the example above the index 7 would be stored, indicating that '6' will have to be increased. No changes
 			to the order of the numbers on the left side of the 'limit_index' will occur.

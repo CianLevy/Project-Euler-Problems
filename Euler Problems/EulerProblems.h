@@ -153,6 +153,13 @@ private:
 	void bubbleSort(int arr[], int startValue, int endValue);
 };
 
+class problem_25 {
+public:
+	std::string solution();
+
+private:
+	int addLarge(int a[], int b[], int length);
+};
 
 class problem_67 {
 public:
