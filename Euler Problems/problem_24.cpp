@@ -1,105 +1,87 @@
 #include "EulerProblems.h"
 
 std::string problem_24::solution() {
-	int range = 9;
-	//int8_t numbers[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+	const int range = 9;
 	int numbers[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
-	//swap(numbers[4], numbers[3]);
-	//for (int j = 0; j < range; j++) {
-	//	std::cout << std::to_string(numbers[j]);
-	//}
-	//std::cout << "\n";
-
-
-	int permutation_count = 1;
-	int previous_swap = 8; //Tracks the magnitude of the previous swap
-	int current_swap_index = 8;
-	int other_index = 9;
-
-	bool ascending = true;
-
-	int swap_count = 2, max_swap = 9;
-	int previous_swap_count = 1;
-
-	int highest_order = 9;
-
-	int j = range - 2;
-	int fuck;
+	int limit_index;
 	int minimum;
-	bool magup = false;
+	int difference;
+	int swap_required;
+	std::string answer;
 
-	for (int i = 1; i < 25; i++) {
+	for (int i = 1; i < 1000000; i++) {
 
-	
-
+		//Even lexicographic permutations require a number of different operations
 		if (i % 2 == 0) {
-			for (int k = 0; k <= range; k++)
-				if (numbers[k] == range)
-					j = k - 1;
+			/*This for loop searches for a number that ends with a series of descending numbers.
+			E.g. 0123456987
+			If the the final digits are all descending then the next permutation will require a that the number 1 index before
+			the series of descending numbers is increased. This for loop searchs for such instances and stores the index of the location
+			that must be changed. For the example above the index 7 would be stored, indicating that '6' will have to be increased. No changes
+			to the order of the numbers on the left side of the 'limit_index' will occur.
+			*/
+			for (int j = 0; j < range; j++) 
+				if (numbers[j] < numbers[j + 1])
+					limit_index = j;
 
-			minimum = 0;
-			magup = true;
+			/*Initialise the minimum to be the worst case scenario. I.e. the next closest value is the maximum difference.
+			Note this assumes that the maximum difference between any of the numbers provided is equal to the range. Alternatively
+			the minimum could be initialised with any value that is gauranteed to be larger than the maximum variation.
+			*/
+			minimum = range;
 
-			for (int k = j; k <= range; k++) {
-				if (numbers[j] - numbers[k] < minimum)
-					fuck = k;
+			/*The algorithim must now find the value to the right of the index found above which will increase the digit
+			at the stored index location by the minimum amount.
+			*/
 
-				if (k >= j + 2 && k < range && numbers[k] < numbers[k + 1])
-					magup = false;
+			for (int j = limit_index; j <= range; j++) {
+
+				difference = numbers[j] - numbers[limit_index];
+
+				if (difference > 0 && difference < minimum) {
+					swap_required = j; //Storing the index of the nearest value to the value contained at index limit_index
+					minimum = difference;
+				}
 			}
-	
 
-			if (magup)
-				swap(numbers[fuck], numbers[j]);
-			else
-				j++;
+			swap(numbers[swap_required], numbers[limit_index]); //The value at limit_index is increased as required
+			bubbleSort(numbers, limit_index + 1, range); //The remaining values to the right of the limit_index must be ordered in ascending order
 
-			for (int i = range; i > j + 1; i--)
-				swap(numbers[i], numbers[i - 1]);
-
-			if (j % 2 == 0 && magup)
-				swap(numbers[range], numbers[range - 1]);
 		}
+		//All odd lexicographic permutations are the same as the previous permutation with the last 2 numbers swapped
 		else
-	
 			swap(numbers[range], numbers[range - 1]);
-	
-		std::cout << "magup " << magup << " " << i << ": ";
-		for (int a = 0; a <= range; a++) {
-			std::cout << std::to_string(numbers[a]);
-		}
-		std::cout << "\n";
+
 	}
 
-
-
-
-	return "s";
+	for (int i = 0; i <= range; i++) 
+		answer += numbers[i] + '0';
+	
+	return answer;
 }
-/*	if (i % 2 == 1) {
-swap(numbers[range], numbers[range - 1]);
-}
-else {
-if (numbers[j] == range)
-j--;
-
-while (numbers[fuck] - numbers[j] != 1)
-fuck++;
-
-swap(numbers[fuck], numbers[j]);
-
-
-
-}
-for (int j = 0; j <= range; j++) {
-std::cout << std::to_string(numbers[j]);
-}
-std::cout << "\n";
-*/
 
 void problem_24::swap(int &a, int &b) {
 	int temp = a;
 	a = b;
 	b = temp;
+}
+
+void problem_24::bubbleSort(int arr[], int startValue, int endValue) {
+
+	int length = endValue;
+
+	int new_length = 1;
+
+	while (new_length != 0) {
+		new_length = 0;
+
+		for (int i = startValue + 1; i <= length; i++) {
+			if (arr[i - 1] > arr[i]) {
+				swap(arr[i - 1], arr[i]);
+				new_length = i;
+			}
+		}
+		length = new_length;
+	}
 }

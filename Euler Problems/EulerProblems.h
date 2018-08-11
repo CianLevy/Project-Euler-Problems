@@ -150,6 +150,7 @@ public:
 
 private:
 	void swap(int &a, int &b);
+	void bubbleSort(int arr[], int startValue, int endValue);
 };
 
 
