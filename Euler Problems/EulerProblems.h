@@ -161,6 +161,11 @@ private:
 	int addLarge(int a[], int b[], int length);
 };
 
+class problem_26 {
+public:
+	std::string solution();
+};
+
 class problem_67 {
 public:
 	std::string solution();
