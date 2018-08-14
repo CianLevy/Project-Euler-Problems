@@ -174,6 +174,11 @@ private:
 	std::vector<int> generatePrimes(int limit, bool prime[]);
 };
 
+class problem_28 {
+public:
+	std::string solution();
+};
+
 class problem_67 {
 public:
 	std::string solution();
