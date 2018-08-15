@@ -179,6 +179,11 @@ public:
 	std::string solution();
 };
 
+class problem_29 {
+public:
+	std::string solution();
+};
+
 class problem_67 {
 public:
 	std::string solution();
