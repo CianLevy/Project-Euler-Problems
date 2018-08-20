@@ -1,4 +1,5 @@
-﻿  problem_34.cpp
+﻿  problem_35.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_35.cpp(40): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
 EulerProblems.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\x64\Debug\Euler Problems.exe

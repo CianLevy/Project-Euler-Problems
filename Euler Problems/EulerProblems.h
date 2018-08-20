@@ -208,6 +208,15 @@ class problem_34 {
 public:
 	std::string solution();
 };
+
+class problem_35 {
+public:
+	std::string solution();
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+	void swap(int &a, int &b);
+};
+
 class problem_67 {
 public:
 	std::string solution();
