@@ -217,6 +217,14 @@ private:
 	void swap(int &a, int &b);
 };
 
+class problem_36 {
+public:
+	std::string solution();
+private:
+	bool decimalPalindrome(int num, int length, int powers[]);
+	bool binaryPalindrome(int num);
+};
+
 class problem_67 {
 public:
 	std::string solution();
