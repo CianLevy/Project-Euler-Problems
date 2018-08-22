@@ -30,7 +30,7 @@ bool problem_36::decimalPalindrome(int num, int length, int powers[]) {
 
 	while (digit_count < halflength) {
 		digits[digit_count] = temp % 10;
-		temp = temp / 10;
+		temp /= 10;
 		sum += digits[digit_count] * powers[halflength - digit_count - 1];
 		digit_count++;
 
