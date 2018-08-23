@@ -233,6 +233,11 @@ private:
 
 };
 
+class problem_38 {
+public:
+	std::string solution();
+};
+
 class problem_67 {
 public:
 	std::string solution();
