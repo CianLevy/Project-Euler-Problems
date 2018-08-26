@@ -248,6 +248,18 @@ public:
 	std::string solution();
 };
 
+class problem_41 {
+public:
+	std::string solution();
+private:
+	std::vector<int> generatePrimes(int limit);
+};
+
+class problem_42 {
+public:
+	std::string solution();
+};
+
 class problem_67 {
 public:
 	std::string solution();
