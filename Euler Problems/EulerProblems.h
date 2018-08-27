@@ -260,6 +260,15 @@ public:
 	std::string solution();
 };
 
+class problem_43 {
+public:
+	std::string solution();
+
+private:
+	void swap(int &a, int &b);
+	void bubbleSort(int arr[], int startValue, int endValue);
+};
+
 class problem_67 {
 public:
 	std::string solution();
