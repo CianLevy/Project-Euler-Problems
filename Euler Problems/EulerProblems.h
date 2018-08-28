@@ -269,6 +269,15 @@ private:
 	void bubbleSort(int arr[], int startValue, int endValue);
 };
 
+class problem_44 {
+public:
+	std::string solution();
+
+private:
+	bool pentagonal(int num);
+};
+
+
 class problem_67 {
 public:
 	std::string solution();
