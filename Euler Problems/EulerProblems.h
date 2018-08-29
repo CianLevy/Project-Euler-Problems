@@ -277,6 +277,13 @@ private:
 	bool pentagonal(int num);
 };
 
+class problem_45 {
+public:
+	std::string solution();
+
+private:
+	bool pentagonal(long num);
+};
 
 class problem_67 {
 public:
