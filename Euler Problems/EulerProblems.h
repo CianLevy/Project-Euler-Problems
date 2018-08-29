@@ -285,6 +285,14 @@ private:
 	bool pentagonal(long num);
 };
 
+class problem_46 {
+public:
+	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+};
+
 class problem_67 {
 public:
 	std::string solution();
