@@ -1,5 +1,97 @@
-﻿  problem_47.cpp
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_47.cpp(47): warning C4715: 'problem_47::solution': not all control paths return a value
+﻿  problem_48.cpp
+  problem_47.cpp
+  EulerProblems.cpp
+  Generating Code...
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_47.cpp(45): warning C4715: 'problem_47::solution': not all control paths return a value
+  Compiling...
+  problem_9.cpp
+  problem_8.cpp
+  problem_7.cpp
+  problem_67.cpp
+  problem_6.cpp
+  problem_5.cpp
+  problem_46.cpp
+  problem_45.cpp
+  problem_44.cpp
+  problem_43.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_43.cpp(20): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+  problem_42.cpp
+  problem_41.cpp
+  problem_40.cpp
+  problem_4.cpp
+  problem_39.cpp
+  problem_38.cpp
+  problem_37.cpp
+  problem_36.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_36.cpp(60): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_36.cpp(47): warning C4101: 'temp': unreferenced local variable
+  problem_35.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_35.cpp(35): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  problem_34.cpp
+  Generating Code...
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_41.cpp(41): warning C4715: 'problem_41::solution': not all control paths return a value
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_44.cpp(23): warning C4715: 'problem_44::solution': not all control paths return a value
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_46.cpp(29): warning C4715: 'problem_46::solution': not all control paths return a value
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_7.cpp(28): warning C4715: 'problem_7::isPrime': not all control paths return a value
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_9.cpp(21): warning C4715: 'problem_9::solution': not all control paths return a value
+  Compiling...
+  problem_33.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_33.cpp(18): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_33.cpp(19): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  problem_32.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_32.cpp(63): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  problem_31.cpp
+  problem_30.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_30.cpp(4): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_30.cpp(4): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_30.cpp(15): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  problem_3.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_3.cpp(7): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+  problem_29.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_29.cpp(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  problem_28.cpp
+  problem_27.cpp
+  problem_26.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_26.cpp(5): warning C4101: 'pattern_count': unreferenced local variable
+  problem_25.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_25.cpp(38): warning C4101: 'start_length': unreferenced local variable
+  problem_24.cpp
+  problem_23.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_23.cpp(67): warning C4101: 'divisor': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_23.cpp(67): warning C4101: 'other_divisor': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_23.cpp(67): warning C4101: 'temp': unreferenced local variable
+  problem_22.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_22.cpp(47): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_22.cpp(50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  problem_21.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'divisor': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'other_divisor': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_21.cpp(69): warning C4101: 'temp': unreferenced local variable
+  problem_20.cpp
+  problem_2.cpp
+  problem_19.cpp
+  problem_18.cpp
+  problem_17.cpp
+  problem_16.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_16.cpp(43): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
+  Generating Code...
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_3.cpp(28): warning C4715: 'problem_3::isPrime': not all control paths return a value
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_3.cpp(15): warning C4715: 'problem_3::solution': not all control paths return a value
+  Compiling...
+  problem_15.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_15.cpp(6): warning C4101: 'y': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_15.cpp(6): warning C4101: 'x': unreferenced local variable
+  problem_14.cpp
+  problem_13.cpp
+  problem_12.cpp
+  problem_11.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_11.cpp(32): warning C4101: 'value': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_11.cpp(31): warning C4101: 'end_y': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_11.cpp(32): warning C4101: 'index': unreferenced local variable
+  problem_10.cpp
+  problem_1.cpp
+  Generating Code...
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_12.cpp(76): warning C4715: 'problem_12::num_divisors': not all control paths return a value
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
 EulerProblems.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\x64\Debug\Euler Problems.exe

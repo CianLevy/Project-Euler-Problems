@@ -301,6 +301,12 @@ private:
 	std::vector<int> generatePrimes(int limit);
 };
 
+class problem_48 {
+public:
+	std::string solution();
+
+};
+
 class problem_67 {
 public:
 	std::string solution();
