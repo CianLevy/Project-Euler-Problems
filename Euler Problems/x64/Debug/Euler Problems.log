@@ -1,0 +1,7 @@
+﻿  problem_51.cpp
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_51.cpp(10): warning C4101: 'max_loop': unreferenced local variable
+e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_51.cpp(49): warning C4715: 'problem_51::solution': not all control paths return a value
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+EulerProblems.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
+  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\x64\Debug\Euler Problems.exe
+  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\x64\Debug\Euler Problems.pdb (Partial PDB)

@@ -169,13 +169,179 @@ public:
 class problem_27 {
 public:
 	std::string solution();
+<<<<<<< HEAD
 };
 
 class problem_52 {
+=======
+
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+};
+
+class problem_28 {
 public:
 	std::string solution();
 };
 
+class problem_29 {
+public:
+	std::string solution();
+};
+
+class problem_30 {
+>>>>>>> 2379bb1aa3b3e75e3affc199e307a6d763296244
+public:
+	std::string solution();
+};
+
+<<<<<<< HEAD
+=======
+class problem_31 {
+public:
+	std::string solution();
+};
+
+class problem_32 {
+public:
+	std::string solution();
+};
+
+class problem_33 {
+public:
+	std::string solution();
+};
+
+class problem_34 {
+public:
+	std::string solution();
+};
+
+class problem_35 {
+public:
+	std::string solution();
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+	void swap(int &a, int &b);
+};
+
+class problem_36 {
+public:
+	std::string solution();
+private:
+	bool decimalPalindrome(int num, int length, int powers[]);
+	bool binaryPalindrome(int num);
+};
+
+class problem_37 {
+public:
+	std::string solution();
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+
+};
+
+class problem_38 {
+public:
+	std::string solution();
+};
+
+class problem_39 {
+public:
+	std::string solution();
+};
+
+class problem_40 {
+public:
+	std::string solution();
+};
+
+class problem_41 {
+public:
+	std::string solution();
+private:
+	std::vector<int> generatePrimes(int limit);
+};
+
+class problem_42 {
+public:
+	std::string solution();
+};
+
+class problem_43 {
+public:
+	std::string solution();
+
+private:
+	void swap(int &a, int &b);
+	void bubbleSort(int arr[], int startValue, int endValue);
+};
+
+class problem_44 {
+public:
+	std::string solution();
+
+private:
+	bool pentagonal(int num);
+};
+
+class problem_45 {
+public:
+	std::string solution();
+
+private:
+	bool pentagonal(long num);
+};
+
+class problem_46 {
+public:
+	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+};
+
+class problem_47 {
+public:
+	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit);
+};
+
+class problem_48 {
+public:
+	std::string solution();
+
+};
+
+class problem_49 {
+public:
+	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+
+};
+
+class problem_50 {
+public:
+	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+
+};
+
+class problem_51 {
+public:
+	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+};
+
+>>>>>>> 2379bb1aa3b3e75e3affc199e307a6d763296244
 class problem_67 {
 public:
 	std::string solution();
