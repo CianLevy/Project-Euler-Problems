@@ -5,7 +5,7 @@
 
 int main()
 {
-	problem_52 problem;
+	problem_53 problem;
 
 	auto t0 = std::chrono::high_resolution_clock::now();
 

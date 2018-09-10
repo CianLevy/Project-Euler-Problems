@@ -169,11 +169,6 @@ public:
 class problem_27 {
 public:
 	std::string solution();
-<<<<<<< HEAD
-};
-
-class problem_52 {
-=======
 
 private:
 	std::vector<int> generatePrimes(int limit, bool prime[]);
@@ -190,13 +185,10 @@ public:
 };
 
 class problem_30 {
->>>>>>> 2379bb1aa3b3e75e3affc199e307a6d763296244
 public:
 	std::string solution();
 };
 
-<<<<<<< HEAD
-=======
 class problem_31 {
 public:
 	std::string solution();
@@ -341,7 +333,19 @@ private:
 	std::vector<int> generatePrimes(int limit, bool prime[]);
 };
 
->>>>>>> 2379bb1aa3b3e75e3affc199e307a6d763296244
+class problem_52 {
+public:
+	std::string solution();
+
+private:
+	std::vector<int> generatePrimes(int limit, bool prime[]);
+};
+
+class problem_53 {
+public:
+	std::string solution();
+};
+
 class problem_67 {
 public:
 	std::string solution();
