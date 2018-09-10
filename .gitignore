@@ -15,6 +15,11 @@ Debug/Euler Problems.exe
 *.vspx
 *.vsp
 *.psess
+<<<<<<< HEAD
+.vs/Euler Problems/v15/.suo
+.vs/Euler Problems/v15/Browse.VC.db
+=======
 *.obj
 *.obj
 *.idb
+>>>>>>> 73dfee6b7bf5e357ec389dd4e86e341338ccd4a7
