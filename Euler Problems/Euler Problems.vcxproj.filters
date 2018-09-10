@@ -119,76 +119,7 @@
     <ClCompile Include="problem_27.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="problem_28.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_29.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_30.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_31.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_32.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_33.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_34.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_35.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_36.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_37.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_38.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_39.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_40.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_41.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_42.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_43.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_44.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_45.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_46.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_47.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_48.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_49.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_50.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="problem_51.cpp">
+    <ClCompile Include="problem_52.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

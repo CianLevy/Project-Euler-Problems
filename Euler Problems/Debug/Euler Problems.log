@@ -1,8 +1,5 @@
-﻿  problem_30.cpp
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_30.cpp(4): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_30.cpp(4): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-e:\users\cian\github\euler problems\project-euler-problems\euler problems\problem_30.cpp(15): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+﻿  problem_52.cpp
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
 EulerProblems.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
-  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
-  Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)
+  Euler Problems.vcxproj -> C:\Users\cianl\Documents\GitHub\Project-Euler-Problems\Debug\Euler Problems.exe
+  Euler Problems.vcxproj -> C:\Users\cianl\Documents\GitHub\Project-Euler-Problems\Debug\Euler Problems.pdb (Partial PDB)

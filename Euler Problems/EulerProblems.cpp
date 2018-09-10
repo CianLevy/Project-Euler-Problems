@@ -2,9 +2,10 @@
 //
 #include "EulerProblems.h"
 
+
 int main()
 {
-	problem_51 problem;
+	problem_52 problem;
 
 	auto t0 = std::chrono::high_resolution_clock::now();
 
