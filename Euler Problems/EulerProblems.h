@@ -348,9 +348,10 @@ public:
 
 private:
 	int cardValue(char c);
-	int handValue(int cards[]);
+	bool gameEvaluation(int cards[]);
 	void quicksort(int data[], int low, int high);
 	int partition(int data[], int low, int high);
+	bool resolveRankCollision(int cards[], int rank);
 };
 
 class problem_67 {
