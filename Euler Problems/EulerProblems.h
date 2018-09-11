@@ -322,7 +322,6 @@ public:
 
 private:
 	std::vector<int> generatePrimes(int limit, bool prime[]);
-
 };
 
 class problem_51 {
@@ -336,14 +335,22 @@ private:
 class problem_52 {
 public:
 	std::string solution();
-
-private:
-	std::vector<int> generatePrimes(int limit, bool prime[]);
 };
 
 class problem_53 {
 public:
 	std::string solution();
+};
+
+class problem_54 {
+public:
+	std::string solution();
+
+private:
+	int cardValue(char c);
+	int handValue(int cards[]);
+	void quicksort(int data[], int low, int high);
+	int partition(int data[], int low, int high);
 };
 
 class problem_67 {

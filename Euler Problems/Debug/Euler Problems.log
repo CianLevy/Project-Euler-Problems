@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿  EulerProblems.cpp
+=======
+﻿  problem_54.cpp
+c:\users\cianl\documents\github\project-euler-problems\euler problems\problem_54.cpp(59): warning C4715: 'problem_54::cardValue': not all control paths return a value
+>>>>>>> 8eea4644593409c88a3f891439198b0dc087fb1d
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
 EulerProblems.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
   Euler Problems.vcxproj -> E:\Users\Cian\Github\Euler Problems\Project-Euler-Problems\Debug\Euler Problems.exe
