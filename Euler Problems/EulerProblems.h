@@ -352,6 +352,7 @@ private:
 	void quicksort(int data[], int low, int high);
 	int partition(int data[], int low, int high);
 	bool resolveRankCollision(int cards[], int rank);
+	bool compareRank(int rank, int count_one[], int count_two[], bool eliminated[]);
 };
 
 class problem_67 {
