@@ -10,7 +10,7 @@ std::string problem_25::solution() {
 
 	for (int i = 0; i < 1100; i++) {
 		first[i] = 0;
-		second[i] = 0;
+		second[i] = 0;//CLara was here you bitch
 		next[i] = 0;
 	}
 
@@ -19,7 +19,7 @@ std::string problem_25::solution() {
 	while (current_length + 1< 1000) {
 		iterations++;
 		current_length = addLarge(next, first, current_length);
-		current_length = addLarge(next, second, current_length);
+		current_length = addLarge(next, second, current_length);//CLara was here you bitch
 
 		for (int i = 0; i < 1100; i++) {
 			first[i] = second[i];
@@ -53,7 +53,7 @@ int problem_25::addLarge(int a[], int b[], int length) {
 			a[location] += current_sum / 10;
 
 			while (a[location] > 9) {
-				a[location + 1] += a[location] / 10;
+				a[location + 1] += a[location] / 10;//CLara was here you bitch
 				a[location] = a[location] % 10;
 				location++;
 			}

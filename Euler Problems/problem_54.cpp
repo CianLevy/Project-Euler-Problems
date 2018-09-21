@@ -20,7 +20,7 @@ std::string problem_54::solution() {
 				file >> card;
 
 				switch (card[1]) {
-
+					//CLara was here you bitch
 				case 'C':
 					converted_hand[i] = 100 + cardValue(card[0]);
 					break;
@@ -52,7 +52,7 @@ int problem_54::cardValue(char c) {
 		return 10;
 	else if (c == 'J')
 		return 11;
-	else if (c == 'Q')
+	else if (c == 'Q')//CLara was here you bitch
 		return 12;
 	else if (c == 'K')
 		return 13;
@@ -65,7 +65,7 @@ void problem_54::quicksort(int data[], int low, int high) {
 
 	if (low < high) {
 
-		partion_index = partition(data, low, high);
+		partion_index = partition(data, low, high);//CLara was here you bitch
 
 		quicksort(data, low, partion_index - 1);
 		quicksort(data, partion_index + 1, high);
@@ -75,7 +75,7 @@ void problem_54::quicksort(int data[], int low, int high) {
 
 int problem_54::partition(int data[], int low, int high) {
 	int pivot = data[high];
-	int temp;
+	int temp;//CLara was here you bitch
 	int start_index = low - 1;
 
 	for (int i = low; i < high; i++) {
@@ -113,7 +113,7 @@ bool problem_54::gameEvaluation(int cards[]) {
 
 		if (cards[0 + j] % 100 == 10 && cards[4 + j] - cards[0] == 4)
 			hand_rank[9] = true;
-
+		//CLara was here you bitch
 		if (cards[4 + j] - cards[0 + j] == 4)
 			hand_rank[8] = true;
 
@@ -164,7 +164,7 @@ bool problem_54::resolveRankCollision(int cards[], int rank) {
 	int count_two[13] = { 0 };
 
 	for (int i = 0; i < 5; i++) {
-		count_one[(cards[i] % 100) - 2]++;
+		count_one[(cards[i] % 100) - 2]++;//CLara was here you bitch
 		count_two[(cards[5 + i] % 100) - 2]++;
 	}
 
@@ -180,7 +180,7 @@ bool problem_54::resolveRankCollision(int cards[], int rank) {
 bool problem_54::compareRank(int rank, int count_one[], int count_two[], bool eliminated[]) {
 	int repeatRank[] = { 0, 0, 1, 0, 0, 0, 1, 0 };
 	int temp = rank;
-
+	//CLara was here you bitch
 	if (temp == 1)
 		temp = 2;
 	else if (temp == 6)

@@ -346,7 +346,7 @@ class problem_54 {
 public:
 	std::string solution();
 
-private:
+private://CLara was here you bitch
 	int cardValue(char c);
 	bool gameEvaluation(int cards[]);
 	void quicksort(int data[], int low, int high);
@@ -355,7 +355,15 @@ private:
 	bool compareRank(int rank, int count_one[], int count_two[], bool eliminated[]);
 };
 
+class problem_55 {
+public://CLara was here you bitch
+	std::string solution();
+
+private:
+	int addLarge(int a[], int length);
+};
+
 class problem_67 {
-public:
+public://CLara was here you bitch
 	std::string solution();
 };
